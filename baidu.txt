@@ -1,0 +1,1107 @@
+
+my world
+make love
+修复bug
+商城development 100%
+git command :
+git init
+git status
+git add .
+git commit -m "文件描述"
+
+
+
+查看分支： git branch
+创建分支： git branch 分支名称
+	删除分支：git branch -d 分支名称
+切换分支： git checkout 分支名称
+分支合并： git merge 要合并得分支
+	注意点：切换分支在合并，注意合并得所属关系，例如 B合并到A分支下，那么首先得切换至A分支后，执行git merge B
+	合并过程中可能会产生冲突： 基础办法是手动进行修改
+工作流概念：
+	
+
+2.6 
+	1.给远程仓库起别名
+	git  remote add origin 远程仓库地址 
+	2.向远程推送代码
+	git push -u origin 分支
+	
+
+	1.克隆远程仓库代码
+	git clone 远程仓库的地址（内部已经实现仓库地址别名）
+	2.切换分支
+	git checkout 分支名称
+	
+
+	在公司进行开发
+	1 切换至dev 分支进行开发
+	git checkout dev
+	2 把master分支合并到dev（更新最新得代码,只执行一次）
+	git merge mater
+	3 修改代码
+	4 提交代码
+		git add .
+		git commit -m "xxx"
+		git push origin dev
+		
+	回到家中继续写代码
+		1 切换到dev分支进行开发
+		git checkout dev
+		2 拉代码
+		git pull origin dev
+		3 继续开发
+		4 提交代码
+		git add .
+                git commit -m "xxx"
+                git push origin dev
+
+	开发完毕，上线操作。
+		1.
+
+
+/sensor/camera/obstacle/image_backward/h265compressed /sensor/camera/obstacle/image_fisheye_left/h265compressed /sensor/camera/obstacle/image_fisheye_right/h265compressed /sensor/camera/obstacle/image_left_backward/h265compressed /sensor/camera/obstacle/image_left_forward/h265compressed /sensor/camera/obstacle/image_narrow/h265compressed /sensor/camera/obstacle/image_right_backward/h265compressed /sensor/camera/obstacle/image_right_forward/h265compressed /sensor/camera/obstacle/image_wide/h265compressed /sensor/camera/traffic/image_long /sensor/camera/traffic/image_short/h265compressed
+
+
+室外数据采集：相机（13） + novata（9） + radar（3）
+cyber_recorder record /sensor/camera/obstacle/image_backward/h265compressed /sensor/camera/obstacle/image_fisheye_left/h265compressed /sensor/camera/obstacle/image_fisheye_right/h265compressed /sensor/camera/obstacle/image_left_backward/h265compressed /sensor/camera/obstacle/image_left_forward/h265compressed /sensor/camera/obstacle/image_narrow/h265compressed /sensor/camera/obstacle/image_right_backward/h265compressed /sensor/camera/obstacle/image_right_forward/h265compressed /sensor/camera/obstacle/image_wide/h265compressed /sensor/camera/traffic/image_long /sensor/camera/traffic/image_short/h265compressed /sensor/hesai40/Scan /sensor/novatel/CorrImu /sensor/novatel/Heading /sensor/novatel/Imu /sensor/novatel/Odometry /sensor/novatel/bestgnsspos /sensor/novatel/bestpos /sensor/novatel/bestxyz /sensor/novatel/inscov /sensor/novatel/inspva /sensor/pandora/hesai40/PointCloud2 /sensor/pandora/hesai40/compensator/PointCloud2 /sensor/frontradar/radardata  /sensor/rearradar_left/radardata /sensor/rearradar_right/radardata
+
+
+raddar数据： novata（9） + radar（3）
+cyber_recorder record /sensor/frontradar/radardata /sensor/novatel/CorrImu /sensor/novatel/Heading /sensor/novatel/Imu /sensor/novatel/Odometry /sensor/novatel/bestgnsspos /sensor/novatel/bestpos /sensor/novatel/bestxyz /sensor/novatel/inscov /sensor/novatel/inspva /sensor/rearradar_left/radardata /sensor/rearradar_right/radardata
+
+	
+
+
+
+
+
+
+imu
+/sensor/gnss/raw_data                                                       
+/sensor/gnss/rtk_base_raw_data                    
+/sensor/gnss/rtk_client_raw_data                   
+/sensor/gnss/rtk_eph                              
+/sensor/gnss/rtk_obs    
+
+
+
+/sensor/novatel/Heading                           
+/sensor/novatel/Imu                                
+/sensor/novatel/Imu_1                             
+/sensor/novatel/Odometry                           
+/sensor/novatel/bestgnsspos                        
+/sensor/novatel/bestpos                            
+/sensor/novatel/bestxyz                            
+/sensor/novatel/inscov                            
+/sensor/novatel/inspva
+
+
+/sensor/pandora/hesai64/PointCloud2               
+/sensor/pandora/hesai64/compensator/PointCloud2
+
+
+/sensor/frontradar/radardata
+/sensor/rearradar_left/radardata                  
+/sensor/rearradar_right/radardata
+
+
+
+
+
+
+93lesson expersion
+1 he --- in a ruined cottage on the hillside
+	dwelt
+	fumed
+	funked
+	dulled	
+他——在山坡上一间荒废的农舍里
+住
+熏过的
+发霉的
+变得迟钝
+
+
+2 most reenagers go through a --- of rebelling.
+	perfume
+	dweller
+	period
+	dumbbell
+大多数青少年都有叛逆的经历。
+香水
+居民
+期
+哑铃
+
+3 the garden was --- with the smell of roses.
+	perfumed
+	approached
+	approximated
+	impersonated
+花园里弥漫着玫瑰的香味。
+香水
+走近
+近似
+模仿
+
+4 we need to adopt a new --- to the problem.
+	dummy
+	approach
+	dissonance
+	rapprochement
+我们需要采用一种新的方法来解决这个问题。
+假
+方法
+失调
+和解
+
+5 Life in a small town could be deadly ----.
+	dull
+	perianal
+	approaching
+	approximate
+小镇上的生活可能是致命的。
+无趣的
+肛周的
+接近
+近似
+
+6.Find the area and --- of the following shapes.
+	dull
+	dight
+	persona
+	perimeter
+6.求以下图形的面积和。
+无趣的
+装
+角色
+周长
+
+7.Families are no longer in close --- to each other.
+	proximity
+	perimeter
+	personnel
+	personification
+7.家庭之间不再亲密无间。
+接近
+周长
+人员
+化身
+
+8.the university library stocks some 5000 current ---.
+	fumes
+	swans
+	dwellings
+	periodicals
+8.大学图书馆现有藏书5000余册。
+烟雾
+天鹅
+住宅
+期刊
+
+9.there were dirty clothes everywhere,and they all had that --- smell.
+	periodic
+	proximal
+	funky
+	dumb
+9.到处都是脏衣服，而且都有那种味道。
+周期
+近端
+时髦的
+愚蠢的
+
+10.Last year, it attracted close to 800 students and professors from --- 80 countries.
+	periodically
+	mysteriously
+	appropriately
+	approximately
+10.去年，它吸引了来自80个国家的近800名学生和教授。
+定期
+神秘的
+适当地
+约
+
+
+
+
+
+
+
+91lesson expersion
+1.it was a place of deep mystery and ---
+	newsletter
+	songwriting
+	pornography
+	enchantment
+1.这是一个非常神秘的地方，而且——
+通讯
+写歌
+色情
+魅力
+
+
+2.it was --- obvious that she was lying.
+	formerly
+	patently
+	privately
+	properly
+2.很明显，她在撒谎。
+以前
+显然
+私下里
+正确\
+
+3.he was becoming --- with his job as a lawyer.
+	interpretive
+	enchanting
+	disenchanted
+	pornngraphic
+3.作为一名律师，他正在成为。
+解释
+迷人的
+幻想破灭的
+色情\
+
+4.in the long-term,we need to address poverty and ---
+	incentive
+	songbird
+	literature
+	illiteracy
+4.从长远来看，我们需要解决贫困和——
+激励
+songbird
+文学
+文盲
+
+
+5.her fans were stormed by her perofrmance and her ---
+	hen
+	charm		
+	singer
+	patent
+5.她的表演和她的——让她的粉丝们大为光火
+母鸡
+魅力
+歌手
+专利
+
+6.Everything that happened that night was --- from his memory.
+	interpreted
+	enchanted
+	accented
+	obliterated
+6.从他的记忆中，那晚发生的一切都是。
+解释
+被施了魔法
+重音
+抹去
+
+7.he had been there long enough that he had picked up a slight Arabic ---
+	illiterate
+	accent
+	interpreter	
+	songwriter
+7.他在那儿呆了很长时间，学会了一点阿拉伯语——
+不识字的
+口音
+翻译
+作曲家
+
+8.several thousand people --- and demonstrated outside the building.
+	chanted
+	charmed
+	accented
+	lettered
+8.数千人在大楼外示威。
+高呼
+迷住了
+重音
+有学问的
+
+9.when talks did occur,they tended to --- differences between the two groups.
+	sing
+	patent
+	deprice
+	accentuate
+9.当谈话确实发生时，他们倾向于——两组人之间的差异。
+唱
+专利
+剥夺
+强调
+
+10.As is the case with any language,the --- translations sometimes do not make sense.
+	illiterate
+	literal	
+	literate
+	patent
+10.就像其他语言一样，有时候翻译是没有意义的。
+不识字的
+文字
+有文化的
+专利
+
+
+88pisson expersion
+
+1.she --- her had head against his shoulder.
+	nestled
+	nicked
+	chaired
+	costed
+1.她——她的头靠在他的肩上。
+依偎
+割进
+主持
+估价
+
+2.the --- of all the subcommittees will meet on Friday.
+	sites
+	chairs
+	sizes
+	soot
+2.所有小组委员会的成员将于星期五开会。
+网站
+椅子
+大小
+烟尘
+
+3.there is no doubt that the current --- is very serious.
+	campsite
+	provost
+	website
+	situation	
+3.毫无疑问，当前形势非常严峻。
+营地
+教务长
+网站
+情况
+
+4.he has made the difficult leap from --- to the theatre.
+	sitcom	
+	nest
+	soil
+	ouster
+4.他已完成了从剧院到剧院的艰难跨越。
+情景喜剧
+巢
+土壤
+下台
+
+5.young people do not want do things that --- their hands.
+	site
+	size
+	soil	
+	seat
+5.年轻人不愿意做那些不需要动手的事情。
+网站
+大小
+土壤
+座位
+
+6.in the future, robots may --- human beings for very heavy
+Work.
+	situate
+	sedate
+	downsize
+	supersede
+6.在未来，机器人可能——人类对于很重
+工作。
+将
+稳重
+缩小
+取代
+
+7.it is cheaper to have Extra building work done when the builder is ----.
+	on-site
+	full-size
+	mid-size
+	niche	
+7.它更便宜。当建造者——时所做的额外建筑工作。
+现场
+全尺寸
+中型
+利基市场
+
+
+8.the worsening situation forced the company to --- from 39 employees to 7.
+	downsize
+	nickname
+	assess
+	nest
+8.不断恶化的形势迫使公司从39名员工减少到7名。
+缩小
+昵称
+评估
+巢
+
+9.small companies can do extremely well if they can fill a specific market ---.
+	cathedral
+	chairman
+	niche
+	nickname
+9.小公司可以做得非常好，如果他们能填补一个特定的市场——。
+大教堂
+主席
+利基市场
+昵称
+
+
+10.income from tourism accounts for a --- proportion of the area is total income.
+	sizable 
+	life-size
+	obsessive
+	situational
+10.旅游收入占a——该地区总收入的比例。
+相当大的
+真人大小的
+强迫性的
+情境
+
+
+
+
+
+
+
+87 lesson
+1.I live a --- little village I China.
+	sitting
+	staunch
+	seated
+	sedate
+1.我住在中国的一个小村庄。
+坐着
+坚定的
+坐着
+稳重
+
+2.Fitness has become a --- with him.
+	settlement
+	backseat
+	obsession
+	assessment
+2.健康对他来说已成了头等大事。
+结算
+后座
+痴迷
+评估
+
+3.Please --- your bill before leaving the hotel.
+	reset
+	settle
+	sedate
+	seat
+3.请在离开旅馆前结账。
+重置
+解决
+稳重
+座位
+
+4.he has suffered a serious --- in his political career.
+	settee
+	setback	
+	saddle
+	sedan
+4.在他的政治生涯中，他遭受了严重的打击。
+长椅
+挫折
+鞍
+轿车
+
+5.the deal has been --- by problems with bureaucracy.
+	sat
+	set
+	beset
+	inset
+5.该协议一直存在官僚主义问题。
+坐
+集
+困扰
+插图
+
+6.she decided that a complete --- of her career was due.
+	cathedral
+	obsessive
+	possession	
+	reassessment
+
+6.她决定完成她的事业。
+大教堂
+强迫性的
+占有
+重新评估
+
+7.we all --- incredible capacity,and we need to bring it to the job.
+	assess
+	obsess
+	possess
+	reassess
+7.我们都有不可思议的能力，我们需要把它带到工作中去。
+评估
+为
+拥有
+重新评估
+
+8.After a night ---,the security council has failed to reach agreement.
+	session
+	assessor
+	seating
+	setting
+8.一夜之后，安理会未能达成协议。
+会话
+评估员
+座位
+设置
+
+
+9.A BRIC summit is discussing how and when to --- the US dollar as a global reserve currency.
+	unseat
+	unsettle
+	resettle
+	reside
+9.金砖四国(BRIC)峰会正在讨论如何以及何时将美元作为全球储备货币。
+推翻
+不安
+安置
+驻留
+
+
+10.at the same time, aging of the population, --- lifestyle and spiraling rates of certain diseases have increased the use of these drugs.
+	sedative
+	resident
+	sedentary
+	residual
+
+
+
+
+
+95.lesson
+1.they met at a ---- location.   他们在一个秘密地点烩面
+	claustrophobic	引起幽闭恐惧症的 
+	undisclosed	未被公开的  保密的
+	concluding	结束的
+	inconclusive	无定论的 胜负不明的
+
+
+2.the evidence is by no means ---    这证据不是确凿的
+	inclisive	全部费用 范围广泛的
+	enclosed	围住的 随函附上的  与世隔绝的
+	conclusive	结论性的 确凿的
+	reclusive	独处的 隐居的
+
+
+3.there is a special --- for you in the envelope    信中有你一份特殊的附件 c
+	closure		倒闭（道路 边界） 封闭
+	inclusion	包括  被包括的人
+	enclosure	围场  圈用地 （信中）附件
+	closeness	亲密 接近
+
+
+4.at 84,john feels his age --- too much travel  在84岁时候，约翰感觉他的年龄不允许 妨碍 他经常旅行
+	concludes	结束  推断 决定 做结论
+	closets		把...关在房间里
+	precludes	排除  防止  妨碍
+	forecloses	取消  赎回权
+
+
+5.i have got three day's holiday --- new year's day  包括元旦在内，我有三天假期
+	profiling 	（有关人或事物）收集
+	including	包括...在内
+	unsettling	令人担忧 令人不安的
+	concluding	结束的
+
+
+6.the company ---- that the CEO will retire in May   该公司透漏，首席执行官将于5月份退休
+	enclosed	围绕  包围  （随信）附上
+	disclosed	揭露 透漏 使显露
+	included	把..列为一部分
+	closed		关闭 合上 结束
+
+
+7. he spends much of his time in — in  the mountains  他大部分时间隐居在深山里面
+	slot		狭槽 投币口 时段
+	foreclosure	对抵押财产的占有  赎回权取消
+	clause		（法律）条款 从句 分句
+	seclusion	清静  隐居  与世隔绝
+
+8.the resort caters almost --- for a high-society public. 这个度假圣地几乎迎合了上流社会的公众
+	curioysly	好奇地
+	exclusively	排他地 独占地 专门地
+	tentatively	初步地 犹豫地
+	conclusively	最后地 决定性地
+
+
+9.it is a ---- society in the sense that they've not been exposed to many things.这是一个封闭/闭塞的社会，因为他们没有接触过很多东西
+	closed	关闭 停止营业 封闭的 只限于某人的 不想公众开放的
+	closer	更为密切的 更靠近的
+	closet	隐藏 不公开
+	closest	最靠近的
+
+
+10.in ----,walking is a cheap,safe,enjoyable,and readily available form of exercise  综上所述，散步是一种廉价 安全 又去而又随时可以开展的运动。
+	exclision	故意不考虑 排斥
+	conclusion	结论 结局
+	disclosure	揭露  公开  公开的事情
+	close-up	特写 特写镜头
+in conclusion  综上所述
+
+
+
+94 lesson
+1.he was not a --- .he would never be perfect.  他不是一个万人，他永远不会完美
+	paragon		完人  杰出典范
+	tester		测试员  测试器
+	contest		竞赛  争夺
+	testimonial	证明书  奖品  表彰会
+
+2.i can --- to the absolute truth of his statement.    我可以证明他的话是千真万确的。
+	attest	证明  证实
+	test	测试  考验
+	file	文件  提交  是归档
+	fillet	剔去（骨头） 将鱼肉切成片
+
+3.the magazine published a short --- of the new mayor.  该杂志刊登了一篇新市长的简介
+	profile		侧面轮廓 人物简介
+	period		一段时间  时期  月经
+	protestant	新教徒
+	protester	抗议者  反对者
+
+4.he used to be a --- politicaian who saw enemies all around him  他曾经是一个多疑的政治家，觉得周围都是敌人
+	parasitic	寄生的  依赖他人过活的
+	tentative	不确定的  初步的  犹豫的
+	paranoid	多疑的  恐惧的  患偏执狂
+	paramilitary	准军事性的  非法军事组织的
+
+5.serveral witnesses --- that they saw the officers hit Miller in the face.几个目击者证明他们看到哪些警察打了弥勒的脸
+	filed		提起  提交  使归档
+	detested	憎恨  厌恶
+	profiled	对..做介绍
+	testified	证明  证实
+
+6.planes --- food and water into the rugged mountainous border region.  飞机箱崎岖的山区空投食物和水
+	filleted	剔去骨头
+	protested	抗议 申辩
+	parachuted	使空降  跳伞 空投
+	contested	对...提出抗辩
+
+7.the --- who get through preliminary rounds are always great bakers  通过初赛的选手都是非常棒的烘焙师
+	paramedics	义乌辅助人员  医疗护理人员
+	contestants	参赛者  竞争者  
+	testimonies	证据 证词
+	paratroopers	伞兵  空降兵
+
+8.it's a disease caused by a ---- that migrates from host to host via mosquito  这是一种由寄生虫引起的疾病，寄生虫通过蚊子从一个宿主迁移到另外一个宿主
+	paranoia 	多疑 恐惧 偏执狂
+	parasite	寄生虫 寄生植物
+	paradise	天堂 乐园
+	parameter	参数  界限  范围
+
+9.Gross margin is another important --- looked upon by investors  毛利率是投资者关注的另外一个重要参数
+	parameter	参数  界限  范围
+	test-rerest	再测  重新测量
+	protestantism	新教 新教教义
+	testament	证据  证明  林中医嘱
+
+
+10.Edison tried 1600 materials before setting on carbonized cotton fiber as the --- for his electric light bulb.   爱迪生尝试了1600种材料，最后选定炭化棉纤维作为灯泡的 灯丝
+	protest		抗议  声明
+	testing		检测
+	paranoid	偏执狂 妄想症
+	filament	细丝  灯丝
+
+
+
+
+97 lesson
+1.he gave up the struggle in ---.  他绝望的放弃了斗争
+	intruder	闯入者  入侵者
+	despire		绝望的  令人绝望的
+	spirit		精神  灵魂  活力
+	ghost		鬼  幽灵 
+
+2.he --- to be their next leader.  他渴望成为他们下一任领导人
+	respired	呼吸 
+	aspired		渴望 有志成为
+	transpired	公开  透漏  为人所知
+	conspired	合谋  密谋  协同
+
+3.the license can be renewed on ---.  许可证到期 可以续期
+	respoiration	呼吸 呼吸作用
+	conspiracy	合谋  密谋  阴谋
+	expiration	结束  期满
+	aspiration	渴望 抱负  志向
+
+4.both poets drew their --- from the countryside.  两位诗人都是在乡下获得的灵感
+	conspirator	共谋者  搞阴谋的人
+	perspiration	汗水  出汗
+	inspiration	灵感  鼓舞人心的人 
+	spirituality	灵性  精神
+
+5.Vitamin a is vital for the health of the --- system. 维生素A 对于呼吸系统的健康至关重要
+	conspiratorial	阴谋的  心照不宣的
+	respiratory	呼吸的 
+	aspiring	渴望从事的  有志 成为的
+	inspirational	启发灵感的  鼓舞人心的
+
+6.the country is enjoying a period of pease and ---.  这个国家 正处于繁荣和平时期
+	desperation	绝望  拼命  铤而走险
+	intrusion	打扰 侵扰 
+	spiritual	灵歌（宗教歌曲  黑人奴隶所唱）
+	prosperity	繁荣  富足
+
+7.Air travel should serve places that cannot easily be reached by --- rail.航空旅行应该服务于那些高铁难以到达的地方
+	high-speed	高速的
+	prosperous	繁荣的  成功的
+	despairing	感到绝望的  没有希望的
+	threatening	威胁的  恐吓的  阴沉沉的
+
+8.they'd been married nearly four years and June was --- to have a baby.他们结婚四年了，极度渴望要个孩子
+	intrusive	侵入的  烦扰的
+	ghostly		鬼似的  幽灵班的
+	desperate	不顾一切的  渴望的
+	spiritual	精神的  宗教的
+
+9.the press has been blamed for --- into people's personal lives in an unacceptable way.
+媒体被指责以一种不可接受的方式 侵入了人们的私生活
+	speeding	超速的
+	protruding	突出  伸出
+	intruding	侵扰  扰乱  侵入
+	despairing	绝望  对...失去信心
+
+10.With little access to clean drinking water and sanitation,the inhabitants face a constanr --- of disease.   犹豫缺乏清洁的饮用水和卫生设施，当地居民面临着不断的疾病威胁
+	norm	规范  标准
+	threat	威胁 凶兆  
+	thrust	猛推 推力
+	speed	速度  快速
+
+
+
+
+
+
+85 lesson
+1.they are ---- supporters of free trade.
+	destitute
+	destined
+	statistical
+	staunch
+
+2.it would be a  mistake to --- the seriousness of the problem.
+	state
+	subsist
+	reinstate
+	understate
+
+3.she is an actress of considerable ---
+	stature
+	statue
+	static
+	stasis
+
+4.Higher education is being forced to --- itself to market forces.
+	prostitute
+	institute
+	contrast
+	staunch
+
+5.the difference between the two samples was not --- significant.
+	persistently
+	statistically
+	substantially
+	purportedly
+
+6.Prices on the stock market,which have been ---,are now rising again.
+	statutory
+	static
+	stately
+	stated
+
+7.my brother-in-law is very --- ,guy, but it's clear he's pretty proud of this thing.
+	upstate
+	interstate
+	statewide
+	understated
+
+8.the prime minister is expected to issue a --- on the policy change this afternoon.
+	statehood
+	stateroom
+	statement
+	statesman
+
+9.private banks will keep gaining maeket share from --- banks in the decade,he predicts.
+	state-owned
+	out-of-state
+	free-standing
+	state-of-the-art
+
+10.in May 2004,just a week before her wedding,she had developed a melanoma --- in her left lung.
+	prostitution
+	statute
+	prostate
+	metastasis
+
+
+
+
+83 lesson
+
+1.Unemployment is high in her ---,
+	establishment
+	stabilization
+	constituency
+	constitutionality
+
+2.her actions and her promises ---
+	destined
+	forestalled
+	contrasted
+	constituted
+	
+3.new laws will soon replace --- legislation.
+	existing 
+	staging
+	standing
+	contrasting
+	
+4.they have maintained a consistently neutral ---.
+	stance
+	stage
+	contrast
+	estate
+
+5.i'm afraid that I'm --- incapable of carrying a tune.
+	constitutionally
+	diplomatically
+	instantaneously
+	functionally
+
+6.A lack of qualifications can be a major --- to finding a job.
+	obstacle
+	destiny
+	ecstasy
+	distance
+
+7.Our luggage was checked all the way through to our final ---.
+	existence
+	constitution
+	constituent
+	destination
+
+8.his wife gave birth to their first child, and he was --- about it.
+	apostolic
+	ecstatic
+	onstage
+	instant
+
+9.in short, if monetary policy is stable and stead, inflation will remain virtually ---.
+	backstage
+	constitutive
+	nonexistent
+	constitutional
+
+
+10.last winter,aid agencies started providing other fuel,such as coal and paraffin,for --- families.
+	unconstitutional
+	long-distance
+	pre-existing
+	destitute
+
+
+
+
+
+
+
+
+
+82 lesson
+
+1.the final --- on the loan is due next week.
+	installment
+	installation
+	stabilization
+	establishment
+
+2.he stirred ---- coffee into a mug of hot water.
+	assisted
+	extant
+	stalled
+	instant
+
+3.the report highlights a number of --- of in injustice.
+	assistants
+	stallions
+	instances
+	apostles
+
+4.our creativity in the field of technology is our greatest ---.
+	instant
+	asset
+	stall
+	ouster
+
+5.he spent holidays at the 300-acre --- of his aunt and uncle.
+	substance
+	assist
+	status
+	estate
+
+6.our sales representatives can --- you in selecting suitable investments.
+	assist
+	stall
+	oust
+	post
+
+7.large number of police were in the square to ---any demonstrations.
+	forestall
+	establish
+	install
+	substantiate
+
+8.they plan to meet again in Rome very soon to begin --- negotiations.
+	substantive
+	instantaneous
+	unsubstantiated
+	understandable
+
+9.airbags inflate --- on impact to form a cushion between the dirver and the steering column.
+	steadfastly
+	substantially
+	instantaneously
+	understandably
+
+10.a --- number of mothers with young children are deterred from undertaking paid work  because they lack access to childcare.
+	established
+	substantial
+	assistive
+	apostolic
+
+
+
+
+81 lesson
+
+1.the children always get --- on long trips.
+	consistent
+	restless
+	stamped
+	standout
+
+2.we will --- her to health but it may take time.
+	restore
+	consist
+	stable
+	steady
+
+3.we need to ensure the --- of service to our customers.
+	consistency
+	restoration	
+	restitution	
+	circumatance
+
+4.the report is --- with the financial statements.
+	unstable
+	restored
+	substandard
+	inconsistent
+
+5.he remained --- in his belief that he had done the right thing.
+	restless
+	restored
+	standard
+	steadfast
+
+6.Police --- five young men in connection with one of the attacks.
+	arrested
+	stamped
+	steadied
+	rested
+
+7.the county is now enjoying a period of relative --- and prosperity.
+	stable
+	stability
+	restorative
+	restlessness
+
+8.European policymakers have --- failed to repond to economic shocks.
+	consistently
+	steadfastly
+	functionally
+	steadily
+
+9.she opened the door to her bedroom,thinking how --- a hot bath would feel tonight.
+	stable
+	steady
+	restorative
+	circumstantial
+
+10.while there are  some signs of ---,Shanks says the economy there remains uncertain.
+	constable
+	restroom
+	stabilization
+	inconsistency
+
+
+
+
+11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
